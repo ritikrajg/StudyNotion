@@ -1,0 +1,14 @@
+Design a responsive website for a business theme(e.g.,Cafe,bookstore,or fitness centre) that includes the following pages like:
+Home,About,Services,Doorstep support and contact....
+Create a mock-up for each page, ensuring the design adapts to different screen sizes(desktop,tablet, and mobile).
+Justify your design choices, including layout, colour scheme and typograpy, and  explain how they enhance user experience(UX) across devices.
+
+Deliverables:
+
+Mock-ups the responsive design parameters for all pages
+a written explanation of design choices.
+a brief report on how the design addresses responsiveness.
+the navbar must stick to the top when the user scrolls down the page at a screen size 1200px.
+on smaller screens(below 768px), the menu should collapse into  hamburger icon.
+the logo should shrink by 50% on elegant layout.
+Ensure the usage of two-column footer, on the webpage and webpages are browser independent.

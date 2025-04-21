@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - StudyNotion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <header class="header-content">
+            <a href="index.html" class="logo">
+                <img src="./images/StudySyn.svg" alt="logoImage" class="logo-icon" loading="lazy" />
+                <span class="logo-text">StudyNotion</span>
+            </a>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="about.html" class="nav-link">About</a>
+            </nav>
+
+            <button type="button" class="menu-button" onclick="toggleMenu()" aria-expanded="false" aria-controls="nav-menu">
+                <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon" loading="lazy" />
+            </button>
+        </header>
+    </div>
+
+    <div class="content">
+        <section class="contact-section">
+            <div class="contact-header">
+                <h1 class="contact-title">Contact Us</h1>
+                <p class="contact-subtitle">Get in Touch with Our Team</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3 class="info-title">Office Location</h3>
+                        <p class="info-text">123 Education Street</p>
+                        <p class="info-text">Learning City, ED 12345</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3 class="info-title">Contact Information</h3>
+                        <p class="info-text">Email: info@studynotion.com</p>
+                        <p class="info-text">Phone: (555) 123-4567</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3 class="info-title">Business Hours</h3>
+                        <p class="info-text">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p class="info-text">Saturday: 10:00 AM - 4:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="return handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h2 class="map-title">Find Us</h2>
+                <div class="map-container">
+                    <!-- Replace with actual map embed code -->
+                    <div class="map-placeholder">
+                        <p>Map will be displayed here</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer-container">
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="comp-logo">
+                    <a class="logo-link" href="#">
+                        <img class="logo-svg" src="./images/StudySyn.svg" loading="lazy" />
+                        StudyNotion
+                    </a>
+                </div>
+                <p class="filler-text">Seamless Learning for Brighter Futures.</p>
+                <div class="social">
+                    <a class="social-link" href="#">
+                        <img src="./images/instagram.svg" class="social-icon" loading="lazy" />
+                    </a>
+                    <a class="social-link">
+                        <img src="./images/linkedin.svg" class="social-icon" loading="lazy" />
+                    </a>
+                    <a class="social-link">
+                        <img src="./images/Microsoft.svg" class="social-icon" loading="lazy" />
+                    </a>
+                    <a class="social-link">
+                        <img src="./images/twitter.svg" class="social-icon" loading="lazy" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Products</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">Overview</a></li>
+                        <li><a href="#overview" class="footer-link">Solutions</a></li>
+                        <li><a href="#overview" class="footer-link">Pricing</a></li>
+                        <li><a href="#overview" class="footer-link">Customers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Company</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">About</a></li>
+                        <li><a href="#overview" class="footer-link">Investor Relations</a></li>
+                        <li><a href="#overview" class="footer-link">Jobs</a></li>
+                        <li><a href="#overview" class="footer-link">Press</a></li>
+                        <li><a href="#overview" class="footer-link">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Support</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">Contact</a></li>
+                        <li><a href="#overview" class="footer-link">Documentation</a></li>
+                        <li><a href="#overview" class="footer-link">Chat</a></li>
+                        <li><a href="#overview" class="footer-link">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Legal</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">Terms of Service</a></li>
+                        <li><a href="#overview" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#overview" class="footer-link">Cookie Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-copyright">
+            © 2021 - Present StudySync. All rights reserved.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

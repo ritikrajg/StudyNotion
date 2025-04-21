@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - StudyNotion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <header class="header-content">
+            <a href="index.html" class="logo">
+                <img src="./images/StudySyn.svg" alt="logoImage" class="logo-icon" loading="lazy" />
+                <span class="logo-text">StudyNotion</span>
+            </a>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="about.html" class="nav-link active">About</a>
+            </nav>
+
+            <button type="button" class="menu-button" onclick="toggleMenu()" aria-expanded="false" aria-controls="nav-menu">
+                <img src="./images/Hamburger.svg" alt="menuButton" class="menu-icon" loading="lazy" />
+            </button>
+        </header>
+    </div>
+
+    <div class="content">
+        <section class="about-section">
+            <div class="about-header">
+                <h1 class="about-title">About StudyNotion</h1>
+                <p class="about-subtitle">Empowering Education Through Innovation</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h2 class="about-card-title">Our Mission</h2>
+                    <p class="about-card-text">
+                        To revolutionize education by providing accessible, engaging, and personalized learning experiences for students worldwide.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h2 class="about-card-title">Our Vision</h2>
+                    <p class="about-card-text">
+                        To become the leading platform for digital education, making quality learning available to everyone, everywhere.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h2 class="about-card-title">Our Values</h2>
+                    <ul class="about-values-list">
+                        <li>Innovation in Education</li>
+                        <li>Accessibility for All</li>
+                        <li>Quality Learning</li>
+                        <li>Student Success</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h2 class="team-title">Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="./images/avatar1.png" alt="Team Member" class="team-member-image" loading="lazy" />
+                        <h3 class="team-member-name">Sarah Johnson</h3>
+                        <p class="team-member-role">CEO & Founder</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/avatar2.png" alt="Team Member" class="team-member-image" loading="lazy" />
+                        <h3 class="team-member-name">Michael Chen</h3>
+                        <p class="team-member-role">Head of Education</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/avatar3.png" alt="Team Member" class="team-member-image" loading="lazy" />
+                        <h3 class="team-member-name">Emily Rodriguez</h3>
+                        <p class="team-member-role">Technical Director</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer-container">
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="comp-logo">
+                    <a class="logo-link" href="#">
+                        <img class="logo-svg" src="./images/StudySyn.svg" loading="lazy" />
+                        StudyNotion
+                    </a>
+                </div>
+                <p class="filler-text">Seamless Learning for Brighter Futures.</p>
+                <div class="social">
+                    <a class="social-link" href="#">
+                        <img src="./images/instagram.svg" class="social-icon" loading="lazy" />
+                    </a>
+                    <a class="social-link">
+                        <img src="./images/linkedin.svg" class="social-icon" loading="lazy" />
+                    </a>
+                    <a class="social-link">
+                        <img src="./images/Microsoft.svg" class="social-icon" loading="lazy" />
+                    </a>
+                    <a class="social-link">
+                        <img src="./images/twitter.svg" class="social-icon" loading="lazy" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Products</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">Overview</a></li>
+                        <li><a href="#overview" class="footer-link">Solutions</a></li>
+                        <li><a href="#overview" class="footer-link">Pricing</a></li>
+                        <li><a href="#overview" class="footer-link">Customers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Company</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">About</a></li>
+                        <li><a href="#overview" class="footer-link">Investor Relations</a></li>
+                        <li><a href="#overview" class="footer-link">Jobs</a></li>
+                        <li><a href="#overview" class="footer-link">Press</a></li>
+                        <li><a href="#overview" class="footer-link">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Support</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">Contact</a></li>
+                        <li><a href="#overview" class="footer-link">Documentation</a></li>
+                        <li><a href="#overview" class="footer-link">Chat</a></li>
+                        <li><a href="#overview" class="footer-link">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">Legal</div>
+                    <ul class="footer-links-list">
+                        <li><a href="#overview" class="footer-link">Terms of Service</a></li>
+                        <li><a href="#overview" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#overview" class="footer-link">Cookie Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-copyright">
+            © 2021 - Present StudySync. All rights reserved.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
